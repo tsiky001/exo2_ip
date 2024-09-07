@@ -1,0 +1,11 @@
+void class(char *addresse,int *tabaddresse);
+void condition(char *addresse);
+int* calc_bin(int* tabaddresse);
+void inverse_bin(char* bin,int len);
+int *tableau(char* ip);
+void condition_mask(int *bin_mask);
+int *addresse_reseau_binaire(int *binaire,int *bin_mask);
+int *contraire(int *bin_mask);
+int *addresse_broadcast_binaire(int *binaire,int *bin_tmp);
+void addresse_reseau(int* bin_reseau);
+void addresse_broadcast(int* bin_broadcast);
